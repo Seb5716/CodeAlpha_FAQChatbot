@@ -1,7 +1,5 @@
 # CodeAlpha_FAQChatbot
 
-CodeAlpha AI Internship, Task 2: **Chatbot for FAQs**
-
 Sunny is a help-desk chatbot for **ShopEasy**, a fictional Indian online store. It answers 50 customer FAQs across 8 topics (orders, delivery, returns, payments, offers, account, products, support). Users can type questions in their own words, with typos, chat slang or a bit of Hinglish.
 
 ![Sunny chat UI](docs/screenshot.png)
