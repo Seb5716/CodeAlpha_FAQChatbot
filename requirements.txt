@@ -1,0 +1,6 @@
+flask>=3.0
+nltk>=3.8
+scikit-learn>=1.3
+numpy>=1.24
+# Optional, for meaning-based matching (downloads a ~90 MB model on first run):
+# sentence-transformers>=2.7

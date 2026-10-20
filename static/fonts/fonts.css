@@ -1,0 +1,11 @@
+/* Bundled locally (SIL Open Font License) so the app looks right offline. */
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("BricolageGrotesque.woff2") format("woff2-variations"), url("BricolageGrotesque.woff2") format("woff2");
+  font-weight: 200 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("Figtree.woff2") format("woff2-variations"), url("Figtree.woff2") format("woff2");
+  font-weight: 300 900; font-style: normal; font-display: swap;
+}

@@ -1,0 +1,1004 @@
+{
+  "bot": {
+    "name": "Sunny",
+    "brand": "ShopEasy",
+    "greeting": "Hi, I'm Sunny, ShopEasy's help assistant. Ask me about orders, delivery, returns, payments or your account. I'll find the right answer for you.",
+    "fallback": "I couldn't find a confident answer to that. You can rephrase it, pick a topic on the left, or reach our support team at **support@shopeasy.example** / **1800-123-456** (Mon–Sat, 9am–6pm).",
+    "support_email": "support@shopeasy.example",
+    "support_phone": "1800-123-456"
+  },
+  "synonyms": {
+    "refund": [
+      "money back",
+      "reimbursement",
+      "reimburse",
+      "repayment",
+      "credited back",
+      "get my money"
+    ],
+    "return": [
+      "send back",
+      "give back",
+      "send it back",
+      "ship back"
+    ],
+    "exchange": [
+      "swap",
+      "replace with another size",
+      "different size",
+      "replacement size"
+    ],
+    "cancel": [
+      "call off",
+      "stop my order",
+      "undo my order",
+      "withdraw order",
+      "cancellation",
+      "do not want",
+      "no longer want",
+      "changed my mind"
+    ],
+    "order": [
+      "purchase",
+      "parcel",
+      "package",
+      "shipment",
+      "consignment",
+      "stuff",
+      "my items"
+    ],
+    "track": [
+      "tracking",
+      "where is",
+      "whereabouts",
+      "status of",
+      "trace",
+      "locate"
+    ],
+    "delivery": [
+      "shipping",
+      "dispatch",
+      "arrive",
+      "arrival",
+      "deliver",
+      "ship",
+      "courier",
+      "reach me"
+    ],
+    "coupon": [
+      "promo code",
+      "promocode",
+      "voucher",
+      "discount code",
+      "offer code",
+      "promo"
+    ],
+    "password": [
+      "passcode",
+      "pwd",
+      "login credentials"
+    ],
+    "account": [
+      "profile",
+      "login id",
+      "user id"
+    ],
+    "payment": [
+      "pay",
+      "paying",
+      "paid",
+      "transaction",
+      "charged",
+      "billing"
+    ],
+    "cod": [
+      "cash on delivery",
+      "pay on delivery",
+      "pay cash",
+      "cash payment"
+    ],
+    "upi": [
+      "gpay",
+      "google pay",
+      "phonepe",
+      "paytm upi",
+      "bhim"
+    ],
+    "emi": [
+      "installment",
+      "instalment",
+      "monthly payments",
+      "pay later in parts"
+    ],
+    "damaged": [
+      "broken",
+      "defective",
+      "faulty",
+      "cracked",
+      "torn",
+      "not working",
+      "dead on arrival"
+    ],
+    "wrong": [
+      "incorrect",
+      "different item",
+      "not what i ordered",
+      "mismatch"
+    ],
+    "support": [
+      "customer care",
+      "customer service",
+      "helpline",
+      "agent",
+      "human",
+      "representative",
+      "executive",
+      "real person"
+    ],
+    "international": [
+      "abroad",
+      "overseas",
+      "outside india",
+      "foreign",
+      "other country",
+      "usa",
+      "uk",
+      "dubai",
+      "canada",
+      "australia",
+      "singapore",
+      "london",
+      "america",
+      "germany",
+      "nepal",
+      "sri lanka",
+      "bangladesh",
+      "europe",
+      "us"
+    ],
+    "warranty": [
+      "guarantee",
+      "guaranty"
+    ],
+    "invoice": [
+      "bill",
+      "receipt",
+      "gst bill",
+      "tax invoice"
+    ],
+    "address": [
+      "location",
+      "pincode",
+      "pin code",
+      "shipping address"
+    ],
+    "gift": [
+      "present",
+      "gifting"
+    ],
+    "membership": [
+      "plus",
+      "prime",
+      "subscription",
+      "premium membership"
+    ],
+    "wallet": [
+      "shopeasy balance",
+      "store credit",
+      "easycash"
+    ],
+    "otp": [
+      "one time password",
+      "verification code"
+    ],
+    "duration": [
+      "how long",
+      "how many days",
+      "how much time",
+      "when will",
+      "when do",
+      "when does",
+      "by when",
+      "how soon"
+    ],
+    "login": [
+      "log in",
+      "sign in",
+      "signin",
+      "log on",
+      "logon"
+    ],
+    "not": [
+      "unable",
+      "cannot"
+    ]
+  },
+  "faqs": [
+    {
+      "id": "track-order",
+      "category": "Orders",
+      "question": "How can I track my order?",
+      "variants": [
+        "Where is my order right now?",
+        "I want to check the status of my package",
+        "Is there a tracking link for my shipment?"
+      ],
+      "answer": "Open **My Orders**, pick the order and tap **Track**. Once it ships you'll also get a tracking link by email and SMS, and the courier's live status shows on the same page.",
+      "keywords": "track tracking status where order package",
+      "related": [
+        "late-order",
+        "delivery-time",
+        "order-not-received"
+      ]
+    },
+    {
+      "id": "late-order",
+      "category": "Orders",
+      "question": "My order is late. What should I do?",
+      "variants": [
+        "The expected delivery date has passed",
+        "Why is my order delayed?",
+        "My package hasn't moved for days"
+      ],
+      "answer": "Delays usually come from courier backlogs or weather. If your order is more than **2 days past** the promised date, open **My Orders → Report Issue → Delayed delivery**. We'll chase the courier and you can cancel for a full refund if it hasn't shipped yet.",
+      "keywords": "late delayed delay slow overdue stuck expected date taking long time",
+      "related": [
+        "track-order",
+        "cancel-order"
+      ]
+    },
+    {
+      "id": "order-not-received",
+      "category": "Orders",
+      "question": "My order says delivered but I didn't receive it",
+      "variants": [
+        "Tracking shows delivered but nothing arrived",
+        "I never got my parcel even though it says delivered",
+        "Package marked delivered but missing"
+      ],
+      "answer": "Please check with neighbours or your building security first. If it still isn't found, report it within **48 hours** from **My Orders → Report Issue → Not received**. We'll investigate with the courier and send a replacement or refund within 5 working days.",
+      "keywords": "delivered not received missing never got stolen lost",
+      "related": [
+        "track-order",
+        "contact-support"
+      ]
+    },
+    {
+      "id": "cancel-order",
+      "category": "Orders",
+      "question": "How do I cancel my order?",
+      "variants": [
+        "I want to cancel an order I just placed",
+        "Can I cancel after ordering?",
+        "How to call off my purchase"
+      ],
+      "answer": "Go to **My Orders**, open the order and tap **Cancel** — this works until the order ships. After it ships you can refuse the delivery or start a return once it arrives. Prepaid orders are refunded automatically after cancellation.",
+      "keywords": "cancel cancellation stop undo",
+      "related": [
+        "cancel-refund",
+        "return-policy"
+      ]
+    },
+    {
+      "id": "cancel-refund",
+      "category": "Orders",
+      "question": "When will I get my money back after cancelling?",
+      "variants": [
+        "Refund for a cancelled order",
+        "I cancelled but have not received the refund",
+        "How long for cancellation refund"
+      ],
+      "answer": "For a cancelled prepaid order the refund starts immediately:\n- **UPI / wallet:** within 24 hours\n- **Cards / net banking:** 3–5 business days\n- **ShopEasy Wallet:** instant",
+      "keywords": "cancelled refund money back cancellation",
+      "related": [
+        "refund-time",
+        "cancel-order"
+      ]
+    },
+    {
+      "id": "modify-order",
+      "category": "Orders",
+      "question": "Can I change items in an order I already placed?",
+      "variants": [
+        "Add another product to my existing order",
+        "Change the size or colour after ordering",
+        "Edit my order"
+      ],
+      "answer": "Orders can't be edited once placed, but you can cancel it from **My Orders** (before it ships) and place a new one with the right items. Any coupon used is returned to your account automatically.",
+      "keywords": "modify edit change add item size colour quantity",
+      "related": [
+        "cancel-order",
+        "change-address"
+      ]
+    },
+    {
+      "id": "order-history",
+      "category": "Orders",
+      "question": "Where can I see my past orders?",
+      "variants": [
+        "Show my order history",
+        "Find an old purchase",
+        "List of previous orders"
+      ],
+      "answer": "All your orders — current and past — are under **Account → My Orders**. Use the filter at the top to search by date, status or product name.",
+      "keywords": "past previous old history orders list",
+      "related": [
+        "invoice",
+        "track-order"
+      ]
+    },
+    {
+      "id": "invoice",
+      "category": "Orders",
+      "question": "How do I download the invoice for my order?",
+      "variants": [
+        "I need a GST bill for my purchase",
+        "Get a receipt for my order",
+        "Where is the tax invoice"
+      ],
+      "answer": "Open the order in **My Orders** and tap **Download invoice**. It becomes available once the order is shipped. For a GST invoice, add your GSTIN under **Account → Business details** before checkout.",
+      "keywords": "invoice bill receipt gst gstin tax download",
+      "related": [
+        "order-history"
+      ]
+    },
+    {
+      "id": "delivery-time",
+      "category": "Shipping & Delivery",
+      "question": "How long does delivery take?",
+      "variants": [
+        "When will my order arrive?",
+        "How many days for shipping?",
+        "What is the delivery time"
+      ],
+      "answer": "**Standard delivery:** 3–7 business days.\n**Express delivery:** 1–2 business days in major cities.\nThe exact date for your pincode is shown on the product page before you buy.",
+      "keywords": "delivery time days long arrive soon when shipping",
+      "related": [
+        "express-delivery",
+        "shipping-charges",
+        "track-order"
+      ]
+    },
+    {
+      "id": "express-delivery",
+      "category": "Shipping & Delivery",
+      "question": "Do you offer express or same-day delivery?",
+      "variants": [
+        "Can I get my order faster?",
+        "Is next day delivery available?",
+        "Fast shipping options"
+      ],
+      "answer": "Yes. **Express (1–2 days)** costs Rs. 79 and **Same-day** delivery is Rs. 149 in Bengaluru, Delhi NCR, Mumbai, Hyderabad, Chennai and Pune for orders placed before 12 noon. Plus members get express delivery free.",
+      "keywords": "express fast faster same day next day quick urgent tomorrow",
+      "related": [
+        "delivery-time",
+        "membership"
+      ]
+    },
+    {
+      "id": "shipping-charges",
+      "category": "Shipping & Delivery",
+      "question": "Do you offer free shipping?",
+      "variants": [
+        "What are the delivery charges?",
+        "Is there a shipping fee?",
+        "Minimum order for free delivery"
+      ],
+      "answer": "Orders above **Rs. 499** get free standard shipping. Below that, a Rs. 40 delivery fee applies. Plus members get free shipping on every order.",
+      "keywords": "free shipping charges fee cost delivery charge minimum",
+      "related": [
+        "express-delivery",
+        "membership"
+      ]
+    },
+    {
+      "id": "international",
+      "category": "Shipping & Delivery",
+      "question": "Do you ship internationally?",
+      "variants": [
+        "Can you deliver outside India?",
+        "Do you ship to the USA?",
+        "International orders"
+      ],
+      "answer": "Right now we deliver only within India. International shipping is planned — you can turn on **Account → Notifications → New regions** to hear when it launches.",
+      "keywords": "international abroad overseas country outside",
+      "related": [
+        "pincode"
+      ]
+    },
+    {
+      "id": "pincode",
+      "category": "Shipping & Delivery",
+      "question": "Do you deliver to my pincode?",
+      "variants": [
+        "Is delivery available in my area?",
+        "Check if you service my location",
+        "You don't deliver to my city"
+      ],
+      "answer": "Enter your pincode in the **Check delivery** box on any product page. We cover 19,000+ pincodes across India; if yours isn't serviceable yet, the box will tell you and you can request it.",
+      "keywords": "pincode area city town location serviceable available village",
+      "related": [
+        "international",
+        "delivery-time"
+      ]
+    },
+    {
+      "id": "change-address",
+      "category": "Shipping & Delivery",
+      "question": "Can I change my delivery address?",
+      "variants": [
+        "Update the shipping address on my order",
+        "I entered the wrong address",
+        "Deliver to a different address"
+      ],
+      "answer": "Yes, until the order ships: **My Orders → Edit address**. After it ships the courier can't reroute it, so please contact support and we'll try to help.",
+      "keywords": "address change update wrong location deliver different office home",
+      "related": [
+        "contact-support",
+        "modify-order"
+      ]
+    },
+    {
+      "id": "missed-delivery",
+      "category": "Shipping & Delivery",
+      "question": "I missed the delivery. What happens now?",
+      "variants": [
+        "Courier came when I was not home",
+        "Delivery attempt failed",
+        "Can the courier come again?"
+      ],
+      "answer": "The courier makes **3 attempts** on consecutive working days and calls you before each one. You can also pick a new slot from the tracking page. After 3 failed attempts the order returns to us and prepaid amounts are refunded.",
+      "keywords": "missed attempt failed not home reattempt reschedule",
+      "related": [
+        "track-order",
+        "refund-time"
+      ]
+    },
+    {
+      "id": "return-policy",
+      "category": "Returns & Refunds",
+      "question": "What is your return policy?",
+      "variants": [
+        "Can I return a product?",
+        "How many days do I have to return an item?",
+        "Return window"
+      ],
+      "answer": "Most items can be returned within **30 days** of delivery in their original condition with tags and packaging. Some items are not returnable — see *non-returnable items*. Start a return from **My Orders → Return item**.",
+      "keywords": "return policy days window period time limit eligible",
+      "related": [
+        "how-to-return",
+        "non-returnable",
+        "refund-time"
+      ]
+    },
+    {
+      "id": "how-to-return",
+      "category": "Returns & Refunds",
+      "question": "How do I return an item?",
+      "variants": [
+        "Steps to send a product back",
+        "Start a return",
+        "How does pickup for returns work"
+      ],
+      "answer": "1. Go to **My Orders** and open the item.\n2. Tap **Return item** and choose a reason.\n3. Pick a pickup slot — our courier collects it from your door for free.\n4. Pack it in the original box; the refund starts after quality check.",
+      "keywords": "return steps pickup process start process procedure",
+      "related": [
+        "return-policy",
+        "refund-time",
+        "exchange"
+      ]
+    },
+    {
+      "id": "refund-time",
+      "category": "Returns & Refunds",
+      "question": "How long does a refund take?",
+      "variants": [
+        "When will I get my money back for a return?",
+        "Refund still not received",
+        "Refund processing time"
+      ],
+      "answer": "Refunds start within **48 hours** of the returned item passing quality check, then take:\n- **UPI / wallet:** 1–2 days\n- **Cards / net banking:** 5–7 business days\n- **Cash on Delivery orders:** to your bank account or ShopEasy Wallet, your choice",
+      "keywords": "refund time long days money back when",
+      "related": [
+        "cod-refund",
+        "how-to-return"
+      ]
+    },
+    {
+      "id": "cod-refund",
+      "category": "Returns & Refunds",
+      "question": "How do I get a refund for a Cash on Delivery order?",
+      "variants": [
+        "I paid cash, how is it refunded?",
+        "Refund for COD purchase",
+        "Bank details for refund"
+      ],
+      "answer": "For COD orders, choose **Bank account** or **ShopEasy Wallet** when you raise the return. Bank refunds need your account number and IFSC (entered securely in the app, never by chat) and arrive in 5–7 business days. Wallet refunds are instant.",
+      "keywords": "cod cash refund bank ifsc",
+      "related": [
+        "refund-time",
+        "wallet"
+      ]
+    },
+    {
+      "id": "exchange",
+      "category": "Returns & Refunds",
+      "question": "Can I exchange an item for a different size?",
+      "variants": [
+        "The size doesn't fit, can I swap it?",
+        "Exchange for another colour",
+        "Replace with a different size"
+      ],
+      "answer": "Yes — clothing and footwear can be exchanged once within **30 days**. Open **My Orders → Exchange**, pick the new size or colour, and we'll pick up the old one when we deliver the new one. If the new size is out of stock, you can return it for a refund instead.",
+      "keywords": "exchange size fit swap colour replace",
+      "related": [
+        "return-policy",
+        "size-guide"
+      ]
+    },
+    {
+      "id": "non-returnable",
+      "category": "Returns & Refunds",
+      "question": "Which items cannot be returned?",
+      "variants": [
+        "Non-returnable products list",
+        "Are there products I can't send back?",
+        "Can I return innerwear"
+      ],
+      "answer": "For hygiene and safety reasons these can't be returned unless damaged or wrong:\n- Innerwear, swimwear and socks\n- Cosmetics and personal care that has been opened\n- Grocery and perishables\n- Gift cards and digital products\nThe product page always says *Not returnable* when this applies.",
+      "keywords": "non returnable cannot return exceptions innerwear cosmetics",
+      "related": [
+        "return-policy"
+      ]
+    },
+    {
+      "id": "damaged-item",
+      "category": "Returns & Refunds",
+      "question": "What if I receive a damaged or wrong product?",
+      "variants": [
+        "The product arrived broken",
+        "I got a different item than I ordered",
+        "Item is defective"
+      ],
+      "answer": "Sorry about that. Report it within **48 hours** from **My Orders → Report issue** with a photo of the product and packaging. We'll send a free replacement or a full refund — your choice — and pick up the faulty one.",
+      "keywords": "damaged broken defective wrong incorrect faulty",
+      "related": [
+        "warranty",
+        "refund-time"
+      ]
+    },
+    {
+      "id": "return-pickup-missed",
+      "category": "Returns & Refunds",
+      "question": "My return pickup didn't happen",
+      "variants": [
+        "Nobody came to collect my return",
+        "Return pickup was cancelled",
+        "Reschedule return pickup"
+      ],
+      "answer": "Open the return in **My Orders** and tap **Reschedule pickup** to choose a new slot. If the courier misses it twice, we'll give you a self-ship option with the shipping cost credited to your wallet.",
+      "keywords": "pickup missed reschedule collect return courier",
+      "related": [
+        "how-to-return"
+      ]
+    },
+    {
+      "id": "payment-methods",
+      "category": "Payments",
+      "question": "What payment methods do you accept?",
+      "variants": [
+        "How can I pay?",
+        "Do you accept UPI?",
+        "Payment options available"
+      ],
+      "answer": "We accept credit and debit cards (Visa, Mastercard, RuPay, Amex), **UPI**, net banking, popular wallets, **EMI**, ShopEasy Wallet and **Cash on Delivery**.",
+      "keywords": "payment methods options pay card upi netbanking",
+      "related": [
+        "cod",
+        "emi",
+        "payment-security"
+      ]
+    },
+    {
+      "id": "cod",
+      "category": "Payments",
+      "question": "Is Cash on Delivery available?",
+      "variants": [
+        "Can I pay when the product arrives?",
+        "Is COD available for my order?",
+        "Pay in cash at my door"
+      ],
+      "answer": "Yes, for orders up to **Rs. 50,000** on most pincodes. A Rs. 20 COD handling fee applies. You can pay the courier in cash or by scanning their UPI QR code.",
+      "keywords": "cod cash delivery pay door",
+      "related": [
+        "payment-methods",
+        "cod-refund"
+      ]
+    },
+    {
+      "id": "emi",
+      "category": "Payments",
+      "question": "Can I pay in EMI?",
+      "variants": [
+        "Do you offer no-cost EMI?",
+        "Monthly installment options",
+        "Buy now pay later"
+      ],
+      "answer": "Yes. EMI is available on orders above Rs. 3,000 with major credit cards and select debit cards. Look for **No-cost EMI** on the product page — the interest is covered by us on eligible products. Pay Later options are shown at checkout if you're eligible.",
+      "keywords": "emi installment monthly no cost pay later credit",
+      "related": [
+        "payment-methods"
+      ]
+    },
+    {
+      "id": "payment-failed",
+      "category": "Payments",
+      "question": "My payment failed but money was deducted",
+      "variants": [
+        "Amount debited but order not placed",
+        "Transaction failed but I was charged",
+        "Double charged for one order"
+      ],
+      "answer": "Don't worry — if the order wasn't confirmed, your bank automatically reverses the amount within **5–7 business days**. If it hasn't returned by then, share the transaction reference with support and we'll trace it for you.",
+      "keywords": "payment failed deducted debited charged twice double money cut",
+      "related": [
+        "contact-support",
+        "payment-methods"
+      ]
+    },
+    {
+      "id": "payment-security",
+      "category": "Payments",
+      "question": "Is my payment information secure?",
+      "variants": [
+        "Is it safe to use my card here?",
+        "Do you store my card details?",
+        "How do you protect payment data"
+      ],
+      "answer": "Yes. Payments are encrypted end-to-end and processed by PCI-DSS compliant gateways. We never store your full card number or CVV, and saved cards are tokenised as per RBI guidelines.",
+      "keywords": "secure safe security card details store protect",
+      "related": [
+        "account-security"
+      ]
+    },
+    {
+      "id": "coupon",
+      "category": "Offers & Rewards",
+      "question": "How do I use a coupon code?",
+      "variants": [
+        "Where do I enter a promo code?",
+        "Apply a discount code at checkout",
+        "How to redeem a voucher"
+      ],
+      "answer": "Enter the code in the **Apply coupon** box on the checkout page and tap **Apply**. The discount shows before you pay. Only one coupon can be used per order.",
+      "keywords": "coupon code apply promo voucher discount redeem",
+      "related": [
+        "coupon-not-working",
+        "current-offers"
+      ]
+    },
+    {
+      "id": "coupon-not-working",
+      "category": "Offers & Rewards",
+      "question": "Why is my coupon not working?",
+      "variants": [
+        "Promo code says invalid",
+        "Coupon is not applying",
+        "Discount code not accepted"
+      ],
+      "answer": "Check these common reasons:\n- The cart is below the coupon's minimum value\n- The coupon has expired or was already used\n- Some products (like gift cards) are excluded\n- It's valid only for certain payment methods\nThe exact reason shows under the coupon box when you tap **Apply**.",
+      "keywords": "coupon not working invalid expired error apply",
+      "related": [
+        "coupon"
+      ]
+    },
+    {
+      "id": "current-offers",
+      "category": "Offers & Rewards",
+      "question": "Are there any sales or offers right now?",
+      "variants": [
+        "What discounts are available today?",
+        "When is the next sale?",
+        "Bank offers"
+      ],
+      "answer": "Live deals, bank offers and upcoming sale dates are on the **Offers** tab of the app and website. Turn on **Notifications → Deals** to get a heads-up before big sales start.",
+      "keywords": "offers sale deals discount today bank",
+      "related": [
+        "coupon",
+        "membership"
+      ]
+    },
+    {
+      "id": "membership",
+      "category": "Offers & Rewards",
+      "question": "What is ShopEasy Plus membership?",
+      "variants": [
+        "Benefits of the Plus subscription",
+        "How much does membership cost?",
+        "Is Plus worth it"
+      ],
+      "answer": "**ShopEasy Plus** costs Rs. 499 a year and gives you:\n- Free shipping on every order\n- Free express delivery\n- Early access to sales\n- 5% back as EasyCash on every purchase\nCancel anytime from **Account → Membership**.",
+      "keywords": "plus membership subscription benefits cost premium",
+      "related": [
+        "shipping-charges",
+        "wallet"
+      ]
+    },
+    {
+      "id": "wallet",
+      "category": "Offers & Rewards",
+      "question": "How does the ShopEasy Wallet work?",
+      "variants": [
+        "What is EasyCash?",
+        "How do I use my wallet balance?",
+        "Store credit expiry"
+      ],
+      "answer": "Your ShopEasy Wallet holds refunds and **EasyCash** rewards. At checkout it's applied automatically. Refund balance never expires; EasyCash rewards expire after 6 months, and the expiry date is shown in **Account → Wallet**.",
+      "keywords": "wallet easycash balance credit expire use",
+      "related": [
+        "membership",
+        "cod-refund"
+      ]
+    },
+    {
+      "id": "gift-card",
+      "category": "Offers & Rewards",
+      "question": "Do you sell gift cards?",
+      "variants": [
+        "Can I buy a gift voucher for a friend?",
+        "How to redeem a gift card",
+        "E-gift cards"
+      ],
+      "answer": "Yes — e-gift cards from Rs. 250 to Rs. 10,000 are under **Gift cards** in the menu. They're emailed instantly and valid for 1 year. To redeem one, go to **Account → Wallet → Add gift card**.",
+      "keywords": "gift card voucher egift redeem friend",
+      "related": [
+        "gift-wrap",
+        "wallet"
+      ]
+    },
+    {
+      "id": "gift-wrap",
+      "category": "Offers & Rewards",
+      "question": "Can I send an order as a gift?",
+      "variants": [
+        "Do you offer gift wrapping?",
+        "Hide the price on the package",
+        "Add a gift message"
+      ],
+      "answer": "Yes. Tick **This is a gift** at checkout to add gift wrap (Rs. 35) and a personal message. The invoice won't be included in the box and prices are hidden from the packaging.",
+      "keywords": "gift wrap message present hide price",
+      "related": [
+        "gift-card"
+      ]
+    },
+    {
+      "id": "create-account",
+      "category": "Account & Security",
+      "question": "How do I create an account?",
+      "variants": [
+        "How to sign up on ShopEasy",
+        "Register a new account",
+        "Can I shop without an account?"
+      ],
+      "answer": "Tap **Sign up** at the top right, enter your name, mobile number or email and a password, then verify with the OTP we send. You can also check out as a guest, but you'll need an account to track returns and earn EasyCash.",
+      "keywords": "create account sign up register new join guest",
+      "related": [
+        "reset-password"
+      ]
+    },
+    {
+      "id": "reset-password",
+      "category": "Account & Security",
+      "question": "How can I reset my password?",
+      "variants": [
+        "I forgot my password",
+        "Can't log in to my account",
+        "Change my login password"
+      ],
+      "answer": "Tap **Forgot password** on the login page, enter your registered email or mobile number and follow the reset link or OTP. To change a password you remember, go to **Account → Security → Change password**.",
+      "keywords": "password forgot reset login cannot sign in change locked out access",
+      "related": [
+        "otp-not-received",
+        "account-security"
+      ]
+    },
+    {
+      "id": "otp-not-received",
+      "category": "Account & Security",
+      "question": "I'm not receiving the OTP",
+      "variants": [
+        "Verification code not coming",
+        "OTP SMS not received",
+        "Didn't get the login code"
+      ],
+      "answer": "Wait 60 seconds and tap **Resend OTP**. Check that the number is correct, you have network signal and that DND isn't blocking promotional senders. You can also choose **Get OTP on email** instead.",
+      "keywords": "otp code sms verification not received resend",
+      "related": [
+        "reset-password"
+      ]
+    },
+    {
+      "id": "update-profile",
+      "category": "Account & Security",
+      "question": "How do I change my phone number or email?",
+      "variants": [
+        "Update my registered mobile number",
+        "Edit my profile details",
+        "Change the email on my account"
+      ],
+      "answer": "Go to **Account → Profile → Edit**. Changing your mobile number or email needs an OTP sent to both the old and the new contact, to keep your account safe.",
+      "keywords": "change phone mobile number email profile update edit",
+      "related": [
+        "account-security"
+      ]
+    },
+    {
+      "id": "delete-account",
+      "category": "Account & Security",
+      "question": "How do I delete my account?",
+      "variants": [
+        "Close my ShopEasy account permanently",
+        "Remove my data",
+        "Deactivate account"
+      ],
+      "answer": "Go to **Account → Privacy → Delete account**. Make sure you have no open orders or returns and that you've used your wallet balance — deletion is permanent and takes up to 7 days.",
+      "keywords": "delete close deactivate remove account data privacy",
+      "related": [
+        "account-security"
+      ]
+    },
+    {
+      "id": "account-security",
+      "category": "Account & Security",
+      "question": "I think my account was hacked",
+      "variants": [
+        "Someone else logged into my account",
+        "I see orders I didn't place",
+        "Got a suspicious call asking for my OTP"
+      ],
+      "answer": "Change your password right away under **Account → Security** and tap **Log out of all devices**. Then contact support so we can freeze any suspicious orders. ShopEasy staff will **never** ask for your OTP, password or card PIN.",
+      "keywords": "hacked suspicious unauthorized fraud scam secure security misuse using",
+      "related": [
+        "reset-password",
+        "contact-support"
+      ]
+    },
+    {
+      "id": "warranty",
+      "category": "Products",
+      "question": "Do products come with a warranty?",
+      "variants": [
+        "How do I claim warranty?",
+        "My electronics stopped working after a month",
+        "Warranty period for phones"
+      ],
+      "answer": "Electronics carry the **manufacturer's warranty** (usually 1 year) — the card is in the box and the period is listed on the product page. For a claim, contact the brand's service centre with your invoice from **My Orders**. Within 10 days of delivery, report it to us as a defective item instead.",
+      "keywords": "warranty guarantee repair claim service centre stopped working",
+      "related": [
+        "damaged-item",
+        "invoice"
+      ]
+    },
+    {
+      "id": "genuine",
+      "category": "Products",
+      "question": "Are your products genuine?",
+      "variants": [
+        "Is this an original product or fake?",
+        "Do you sell authentic brands?",
+        "Counterfeit items"
+      ],
+      "answer": "Yes. We source directly from brands and authorised sellers, and every seller is verified. If you ever receive something you believe isn't genuine, report it and we'll refund you in full.",
+      "keywords": "genuine original authentic fake counterfeit real",
+      "related": [
+        "damaged-item"
+      ]
+    },
+    {
+      "id": "out-of-stock",
+      "category": "Products",
+      "question": "When will an out-of-stock item be available again?",
+      "variants": [
+        "Product is sold out",
+        "Notify me when back in stock",
+        "Restock date"
+      ],
+      "answer": "Tap **Notify me** on the product page and we'll send an alert as soon as it's back. We can't promise restock dates because they depend on the seller.",
+      "keywords": "out of stock sold out restock available notify",
+      "related": [
+        "price-drop"
+      ]
+    },
+    {
+      "id": "size-guide",
+      "category": "Products",
+      "question": "How do I find my size?",
+      "variants": [
+        "Is there a size chart?",
+        "Which size should I order?",
+        "Sizes run small or large?"
+      ],
+      "answer": "Every clothing and footwear page has a **Size chart** link under the size buttons, with measurements in cm and inches. Reviews often mention whether a product runs small or large. If it doesn't fit, you can exchange it free within 30 days.",
+      "keywords": "size chart fit measurement which size small large",
+      "related": [
+        "exchange"
+      ]
+    },
+    {
+      "id": "price-drop",
+      "category": "Products",
+      "question": "The price dropped after I bought it. Can I get the difference?",
+      "variants": [
+        "Price match policy",
+        "Item is cheaper now than when I ordered",
+        "Refund the price difference"
+      ],
+      "answer": "We don't refund price differences on placed orders. If the order hasn't shipped, you can cancel and reorder at the new price. Add items to your **Wishlist** to get price-drop alerts in the future.",
+      "keywords": "price drop difference cheaper match reduced",
+      "related": [
+        "cancel-order",
+        "out-of-stock"
+      ]
+    },
+    {
+      "id": "sell-on-shopeasy",
+      "category": "Products",
+      "question": "How can I sell my products on ShopEasy?",
+      "variants": [
+        "Become a seller",
+        "Register as a vendor",
+        "List my business on your site"
+      ],
+      "answer": "Visit **sell.shopeasy.example** and register with your GSTIN, PAN and bank details. Approval takes 2–3 working days, after which you can list products from the Seller Hub.",
+      "keywords": "sell seller vendor business list register merchant",
+      "related": [
+        "contact-support"
+      ]
+    },
+    {
+      "id": "contact-support",
+      "category": "Support",
+      "question": "How can I contact customer support?",
+      "variants": [
+        "I want to talk to a human",
+        "Customer care phone number",
+        "Connect me to an agent"
+      ],
+      "answer": "You can reach us any of these ways:\n- **Phone:** 1800-123-456 (Mon–Sat, 9am–6pm)\n- **Email:** support@shopeasy.example (reply within 24 hours)\n- **Live chat:** Help Centre → Chat with us",
+      "keywords": "contact support help phone email call agent human talk",
+      "related": [
+        "complaint"
+      ]
+    },
+    {
+      "id": "complaint",
+      "category": "Support",
+      "question": "How do I raise a complaint?",
+      "variants": [
+        "I'm not happy with the service",
+        "Escalate my issue",
+        "Grievance officer contact"
+      ],
+      "answer": "Raise a ticket from **Help Centre → My tickets → New complaint** — you'll get a ticket ID and a reply within 48 hours. If it isn't resolved, you can escalate to our Grievance Officer at **grievance@shopeasy.example**.",
+      "keywords": "complaint escalate unhappy grievance ticket issue bad service",
+      "related": [
+        "contact-support"
+      ]
+    },
+    {
+      "id": "store-locations",
+      "category": "Support",
+      "question": "Do you have physical stores?",
+      "variants": [
+        "Is there a shop I can visit?",
+        "Offline store near me",
+        "Can I pick up my order in person?"
+      ],
+      "answer": "ShopEasy is online-only, so there are no physical stores. In some cities you can choose a **Pickup Point** at checkout and collect your order from a partner shop near you.",
+      "keywords": "store shop physical offline visit pickup point near me",
+      "related": [
+        "delivery-time"
+      ]
+    }
+  ]
+}
